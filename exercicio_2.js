@@ -1,11 +1,14 @@
 
 function ordemRegressiva() {
-let contagem = 10;
+console.log("Contagem Regressiva");
+let i = 10;
 
-while (contagem>-1){
-    console.log(contagem);
-    contagem - 1;
-    delay(1000);
+while(i >= 1 ){
+    console.log(i);
+    i --;
 }
-console.log("Lançamento iniciado!")
+console.log("Lançamento realizado!");
+
 }
+
+ordemRegressiva();
