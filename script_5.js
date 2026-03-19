@@ -1,4 +1,5 @@
-function ex5() {
+function TransfNumeros() {
+let numero = Number(prompt("Digite um número"));
 
 
 }
